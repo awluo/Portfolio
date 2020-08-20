@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--External CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Import Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,400;0,700;1,300&family=Share+Tech&display=swap"
+        rel="stylesheet">
+
+    <title>Projects</title>
+</head>
+
+<body>
+    <!--Navigation Bar-->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light p-0">
+            <a class="navbar-brand" href="index.html">AMY LUO</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item pg-link active" href="projects.html">Projects</a>
+                    <a class="nav-item pg-link" href="art.html">Art</a>
+                    <a class="nav-item pg-link" href="about.html">About</a>
+                </div>
+            </div>
+
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="project-wrapper">
+            <h1 class="project-title">TRACE</h1><span class="project-descrip">A mobile app for contact tracing</span>
+            <div class="row">
+                <div class="col-12">
+                    <img class="project-img" src="images/Trace/bigthumbnail.png" alt="trace-mockup">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-sm-12 margin-sm">
+                    <h2>Overview</h2>
+                    <p>My IS Milieux course term project was to design a Information Systems solution to help combat the
+                        COVID-19 pandemic. My proposed solution was to create a digital contact tracing tool with a
+                        mobile app. This could make contact tracing and notification instant upon case confirmation,
+                        acting much faster than the traditional manual method.The app gathers useful location and
+                        proximity data to inform potentially infected individuals and guide them towards the resources
+                        they need to prevent further spread of the virus.
+                    </p>
+
+                </div>
+                <div class="col-md-4 col-sm-12 margin-sm">
+                    <b>Duration</b><br>
+                    Spring 2020 (2 weeks) <br><br>
+
+                    <b>Team</b><br>
+                    Individual Project<br><br>
+
+                    <b>Skills</b><br>
+                    UI/UX Design<br>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="margin-lg">
+                <h2>Process</h2>
+                <div class="title">
+                    Background Research
+                </div>
+                <p>Contact tracing helps control disease outbreak by tracking those who have been in contact with an
+                    infected individual to advise them to take protective measures and self-quarantine. This is a
+                    difficult process if done manually, requiring significant time and resources. In addition, human
+                    memory is not always reliable or accurate.
+                </p>
+            </div>
+
+            <div class="margin-lg">
+                <div class="title">
+                    How It Works
+                </div>
+                <p>The app works by broadcasting a unique Bluetooth identifier that other nearby phones can detect. Apps
+                    estimate distance between one another using Bluetooth signal strength. If less than 6ft of distance
+                    is sensed, they exchange identifiers and the contact is logged into the app’s database.
+
+                    Thus, a temporary record of proximity events is created between individuals. Once an individual is
+                    diagnosed, the app alerts recent close contacts and prompts self-isolation.
+                </p>
+                <img class="img-xs padding-sm" src="images/trace/connect.png" alt="contact tracing">
+            </div>
+
+            <div class="margin-lg">
+                <div class="title">
+                    Privacy Concerns
+                </div>
+                <p>With adoption of contact tracing apps, there are ethical considerations to keep in mind:
+                </p>
+                <div class="row">
+                    <div class="col-md-4 col-sm-12 margin-sm">
+                        <img class="img-xs padding-md" src="images/Trace/check.png" alt="check">
+                        <p>Voluntary digital tracing (must opt-in) & Transparency: for what info is collected and how it
+                            will be used</p>
+                    </div>
+                    <div class="col-md-4 col-sm-12 margin-sm">
+                        <img class="img-xs padding-md" src="images/Trace/clock.png" alt="clock">
+                        <p>Limit on how long data will be stored. Potential rotation of phone identifiers to lower risk
+                            of third-party tracking</p>
+                    </div>
+                    <div class="col-md-4 col-sm-12 margin-sm">
+                        <img class="img-xs padding-md" src="images/Trace/userprivacy.png" alt="privacy">
+                        <p>Anonymized ids in databases, no disclosure of patient or user identity
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="margin-lg">
+                <h2>Results</h2>
+                <div class="title">
+                    Final Design
+                </div>
+                <p>After conducting background research, I created the following high fidelity wireframes for the
+                    contact tracing app. <br>
+
+                <ol>
+
+                    <li>Users are prompted to login into the app and set their privacy preferences.</li>
+
+                    <li>They can set their primary contact information, so the app can can notify them if they have been
+                        in contact with a COVID-19 diagnosed individual recently. Once users receive the alert, they are
+                        redirected to a resources page, that provides information on next steps they should take
+                        (getting
+                        tested, self-isolating, etc.)</li>
+
+                    <li>There is also an accessible resources page for receiving updated and relevant local news about
+                        the virus. </li>
+
+                </ol>
+                </p>
+            </div>
+
+            <img class="img-md padding-sm" src="images/Trace/wireframes.png" alt="wireframes">
+            <div class="img-caption">High-fi wireframes</div>
+            <br><br>
+
+
+            <a class="back-button" href="projects.html">
+                <img class="back-icon" src="images/back-button.png" alt="back to projects">
+                <h3 class="back-text">Back to Projects</h3>
+            </a>
+
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

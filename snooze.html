@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--External CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Import Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,400;0,700;1,300&family=Share+Tech&display=swap"
+        rel="stylesheet">
+
+    <title>Projects</title>
+</head>
+
+<body>
+    <!--Navigation Bar-->
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light p-0">
+            <a class="navbar-brand" href="index.html">AMY LUO</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ml-auto">
+                    <a class="nav-item pg-link active" href="projects.html">Projects</a>
+                    <a class="nav-item pg-link" href="art.html">Art</a>
+                    <a class="nav-item pg-link" href="about.html">About</a>
+                </div>
+            </div>
+
+        </nav>
+    </div>
+
+    <div class="container">
+        <div class="project-wrapper">
+            <h1 class="project-title">SNOOZE</h1><span class="project-descrip">An interactive sleep reminder</span>
+            <div class="row">
+                <div class="col-12">
+                    <img class="project-img" src="images/Snooze/thumbnailsnooze.png" alt="Snooze thumbnail">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 col-sm-12 margin-sm">
+                    <h2>Overview</h2>
+                    <p>My goal for this project was design an assistive device for myself which would help me in my
+                        daily life. I decided to create a sleep alarm clock that senses whether or not I am up late at
+                        night, by detecting light levels in the room. If I am up past a certain bed time, the alarm will
+                        sound and remind me it’s time to get sleep. If the user is still not not
+                        in bed within 5 minutes of the alarm, a second snooze alarm
+                        will be set off. The first alarm can be stopped by pressing
+                        a snooze button but not the second snooze alarm.
+                    </p>
+
+                </div>
+                <div class="col-md-4 col-sm-12 margin-sm">
+                    <b>Duration</b><br>
+                    Spring 2020 (1 month) <br><br>
+
+                    <b>Skills</b><br>
+                    Prototyping, Physical Computing<br>
+                </div>
+            </div>
+
+            <hr>
+
+            <div class="padding-sm">
+                <h3>How It Works</h3>
+
+                <div class="row p-3">
+                    <div class="col-md-9 col-sm-12">
+                        <img class="img-md" src="images/Snooze/labels.jpg">
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <p>Labeled physical components
+                        </p>
+                    </div>
+                </div>
+                <br>
+                <div class="row p-3">
+                    <div class="col-md-9 col-sm-12">
+                        <img class="img-md" src="images/Snooze/gif.gif">
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <p>A photoresistor senses light levels in the room.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row p-3">
+                    <div class="col-md-9 col-sm-12">
+                        <img class="img-md" src="images/Snooze/gif2.gif">
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <p>There is a menu system to view alarm settings.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="row p-3">
+                    <div class="col-md-9 col-sm-12">
+                        <img class="img-md" src="images/Snooze/gif3.gif">
+                    </div>
+                    <div class="col-md-3 col-sm-12">
+                        <p>You can edit the alarm as well as the time.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="margin-lg">
+                <h2>Process</h2>
+                <div class="row padding-sm">
+                    <div class="side-title">
+                        Planning
+                    </div>
+                    <div class="side-descrip">
+                        I started with brainstorming ideas and sketching how I wanted the alarm clock to function and
+                        look like. I envisioned the device to resemble a regular alarm clock in form, but I also wanted
+                        to integrate the added functionality of light detection. It was definitely helpful to begin with
+                        a solid concept in mind for what I was building.
+                    </div>
+                </div>
+            </div>
+
+            <img class="img-sm" src="images/Snooze/sketches.JPG" alt="brainstorming">
+            <div class="img-caption">Initial concept sketches and notes</div>
+
+            <div class="margin-lg">
+                <div class="row padding-sm">
+                    <div class="side-title">
+                        Prototyping
+                    </div>
+                    <div class="side-descrip">
+                        The first two pieces I focused on were the LCD Display and the real time clock as these were the
+                        two fundamental components to a basic working clock. I was able to get the LCD to display the
+                        time data, although the time had to be hard coded in.
+                    </div>
+
+                    <div class="col-md-6 col-sm-12 p-4">
+                        <img class="img-md" src="images/Snooze/parts.jpg" alt="parts">
+                        <div class="img-caption">Building a basic functional clock</div>
+                    </div>
+
+                    <div class="col-md-6 col-sm-12 p-4">
+                        <img class="img-md" src="images/Snooze/realtimeclock.jpg" alt="real time clock">
+                        <div class="img-caption">Real time clock used to measure time data</div>
+                    </div>
+                </div>
+                <div class="side-highlight p-3">
+                    I started early on the menu system to eliminate the hard coding issue and to help make alarm/general
+                    software testing easier. For user input, I used a potentiometer for entering values along a range
+                    and a push button to select options. The code for the menu system ended being one of most complex
+                    aspects of this project due to all the different settings with various inputs and screen displays.
+                    <br>
+                </div>
+            </div>
+
+            <div class="row margin-lg">
+                <div class="col-md-6 col-sm-12 p-4">
+                    <img class="img-md" src="images/Snooze/speaker.jpg" alt="speaker">
+                    <div class="img-caption">Speaker (left) and Potentiometer (right).</div>
+                </div>
+                <div class="col-md-6 col-sm-12 p-4">
+                    <img class="img-md" src="images/Snooze/rotary.jpg" alt="rotary encoder">
+                    <div class="img-caption">Rotary encoder component</div>
+                </div>
+                <div class="side-highlight p-3">
+                    In place of the potentiometer and push button, I attempted to use a rotary encoder to make user
+                    input easier with continuous rotation and added button functionality. However, I spent way too much
+                    time trying to figure out the wiring and code to read inputs from the rotary encoder without much
+                    progress. I eventually switched back to my original choice of a separate potentiometer and push
+                    button since they were more familiar to me and already integrated into the menu code.
+                    <br>
+                </div>
+            </div>
+
+            <div class="row padding-sm">
+                <div class="col-md-9 col-sm-12">
+                    <img class="img-md" src="images/Snooze/prototype.jpg" alt="prototype">
+                </div>
+                <div class="col-md-3 col-sm-12">
+                    <p>For the physical prototype, I just made a simple white box from cardboard and paper to hold the
+                        screen and drawn-on components.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="margin-lg">
+                <div class="row padding-sm">
+                    <div class="side-title">
+                        Final Development
+                    </div>
+                    <div class="side-descrip">
+                        I measured each of the components to ensure that they would fit appropriately. I sketched the
+                        location of each part and how large I wanted the physical box to be, keeping in mind that it had
+                        to hold both the Arduino and the breadboard. <br><br>
+                        The clock was modeled in Fusion 360 before being laser cut. This step was also very time
+                        consuming especially since I had little prior experience working with Fusion. I wanted to add
+                        finger joints to each side to make the box more structurally sound, but the process of
+                        making rectangular cuts on each edge proved to be pretty tedious.
+                    </div>
+                </div>
+            </div>
+            <div class="row margin-lg">
+                <div class=" p-4">
+                    <img class="img-sm" src="images/Snooze/measurements.jpg" alt="measurements">
+                    <div class="img-caption">Box sketches and measurements.</div>
+                </div>
+
+                <div class="p-4">
+                    <img class="img-sm" src="images/Snooze/fusion.png" alt="fusion model">
+                    <div class="img-caption">3D box model in Fusion 360</div>
+                </div>
+
+                <div class="side-highlight p-3">
+                    I decided to go with acrylic as my material of choice because I wanted the clock to have a clean,
+                    sleek appearance. I chose blue acrylic because since this was a sleep device, I felt that blue was a
+                    calming color and also associated with night time. Once the pieces were cut, I realized the box
+                    might actually be too small to fit everything inside. It turned out to be a tight fit, so I had to
+                    strategically position and cram together all the internal components. In then end, I was able to
+                    successfully fit everything inside.
+                </div>
+
+                <div class="col-md-6 col-sm-12 p-4">
+                    <img class="img-lg" src="images/Snooze/outside.jpg" alt="outside">
+                    <div class="img-caption">Realizing this is a lot of stuff to fit inside a tiny box.</div>
+                </div>
+                <div class="col-md-6 col-sm-12 p-4">
+                    <img class="img-lg" src="images/Snooze/tape.jpg" alt="taped box">
+                    <div class="img-caption">Tape helped hold together loose pieces, especially while waiting for glue
+                        to dry.
+                    </div>
+                </div>
+                <div class="col-12">
+                    <img class="img-sm" src="images/Snooze/inside.jpg" alt="inside">
+                    <div class="img-caption">Fitting all the internal components inside.</div>
+                </div>
+            </div>
+
+
+            <div class="rmargin-lg">
+                <h2>Reflection</h2>
+                <div class="row padding-sm">
+                    <div class="side-title">
+                        Discussion
+                    </div>
+                    <div class="side-descrip">
+                        <p>
+                            Overall, I am pretty happy with how my project turned out. It functions as intended, and the
+                            design is similar to how I envisioned, although there is definitely still room for
+                            improvement.
+                            Reflecting on the challenges I faced, I’m glad I pushed myself to work with new components
+                            and
+                            software. It was certainly frustrating at times, but these setbacks proved to be good
+                            learning
+                            opportunities.
+                        </p>
+                        <p>
+                            Moving forward, I know to more carefully consider which components I will need and to not
+                            make
+                            major changes prior to writing a lot of code. The menu code itself was more complicated than
+                            anticipated, and it would have been helpful to organize and plan out my code on a conceptual
+                            level before writing it out. I realized sometimes it’s okay to quit while you’re ahead. The
+                            menu
+                            system was already working, so I could have saved time had I just moved onto the
+                            next
+                            feature instead of focusing on perfecting this detail. For future projects, I’ll
+                            keep
+                            in mind the importance of prioritizing the big picture rather than getting stuck on one
+                            small
+                            aspect.
+                        </p>
+                        <p>
+                            In retrospect, I realized the importance of planning ahead, especially when it came to
+                            piecing
+                            together the final box. A lot of last minute problems arose which I definitely did not
+                            anticipate, for instance the internal pieces being too tightly fitted inside. If I had
+                            measured
+                            more thoughtfully ahead of time, I might have made the box bigger. In addition, the buttons
+                            at
+                            the top did not have ample support below. I applied some creative problem solving and taped
+                            wood
+                            pieces below them for base support. Next time, I know to work on my project earlier to give
+                            myself ample time to make these mistakes, or better yet, have time to plan ahead and
+                            anticipate
+                            these problems before they arise in the first place.</p>
+                    </div>
+                </div>
+
+                <h3>Technical Info</h3>
+                <div class="row p-3">
+                    <div class="side-title">
+                        Schematic
+                    </div>
+                    <img class="img-md" src="images/Snooze/schematic.jpg" alt="schematic">
+
+
+                    <div class="side-title">
+                        Code Snippet
+                    </div>
+                    <div class="col-12">
+                        <img class="img-sm" src="images/Snooze/code.PNG" alt="code">
+                    </div>
+                </div>
+            </div>
+
+            <a class="back-button" href="projects.html">
+                <img class="back-icon" src="images/back-button.png" alt="back to projects">
+                <h3 class="back-text">Back to Projects</h3>
+            </a>
+
+
+        </div>
+
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
