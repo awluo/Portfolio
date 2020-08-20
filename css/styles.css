@@ -8,6 +8,11 @@ body {
     animation-iteration-count: 1; 
     animation-fill-mode: forwards; 
 } 
+
+.parallax-window {
+	min-height: 400px;
+	background: transparent;
+}
   
 @keyframes fadeInAnimation { 
     0% { 
