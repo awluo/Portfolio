@@ -12,7 +12,20 @@
     <!--External CSS-->
     <link rel="stylesheet" href="css/styles.css">
 
-    <!-- Import Fonts -->
+    <!--Import jQuery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.7.3/js/lightgallery.min.js"
+        integrity="sha512-z1YK/YNTpV4VEGcqduLtMKSa1/V1marpnZedKiyHfxAbC65zCdjGhoJP/3avUkjZhFtxTg3n67/MSsULfwv+jQ=="
+        crossorigin="anonymous"></script>-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.7.3/css/lightgallery.min.css"
+        integrity="sha512-fCa8pkw+vnVSYDMD0SpSXoAjh5qXIAW7GsyuMvHnWOKrwb42UhN5Zpyol4WQYUmMWd/ipQhxR0mDs474wm96ag=="
+        crossorigin="anonymous" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.7.3/js/lightgallery-all.min.js"
+        integrity="sha512-cAQvmPwOEROGTfCPf3vymnEU5nECmDbR6pR/0jcaG4rEKGfwXJDXWFxeKEJtFv1fHkvTLM1irPg9hiPQFEGZ/w=="
+        crossorigin="anonymous"></script>
+
+    <!--Import fonts-->
     <link
         href="https://fonts.googleapis.com/css2?family=Chivo:ital,wght@0,300;0,400;0,700;1,300&family=Share+Tech&display=swap"
         rel="stylesheet">
@@ -41,9 +54,9 @@
     </div>
 
     <div class="container">
-        <h1 class="col">Traditional Art</h1>
+        <h1 >Traditional Art</h1>
 
-        <div class="row no-gutters">
+        <!--<div class="row no-gutters">
             <div class="col-md-4">
                 <img class="img-lg p-3" src="images/traditional art/art1.jpg" alt="">
                 <img class="img-lg p-3" src="images/traditional art/art4.jpg" alt="">
@@ -70,30 +83,97 @@
                 <img class="img-lg p-3" src="images/traditional art/art18.JPG" alt="">
 
             </div>
-        </div>
+
+        </div>-->
+
+        <ul id="lightgallery" class="list-unstyled row no-gutters">
+            <li class="col-md-4">
+                <a href="images/traditional art/art1.jpg" alt="">
+                    <img class="img-lg p-3" src="images/traditional art/art1.jpg" alt="">
+                </a>
+                <a href="images/traditional art/art4.jpg" alt="">
+                    <img class="img-lg p-3" src="images/traditional art/art4.jpg" alt="">
+                </a>
+                <a href="images/traditional art/art7.jpg" alt="">
+                    <img class="img-lg p-3" src="images/traditional art/art7.jpg" alt="">
+                </a>
+                <a href="images/traditional art/art10.JPG" alt="">
+                    <img class="img-lg p-3" src="images/traditional art/art10.JPG" alt="">
+                </a>
+                <a href="images/traditional art/art13.JPG" alt="">
+                    <img class="img-lg p-3" src="images/traditional art/art13.JPG" alt="">
+                </a>
+                <a href="images/traditional art/art16.JPG" alt="">
+                    <img class="img-lg p-3" src="images/traditional art/art16.JPG" alt="">
+                </a>
+            </li>
+            <li class="col-md-4">
+                <a href="images/traditional art/art2.JPG" alt="">
+                    <img class="img-lg p-3" src="images/traditional art/art2.JPG" alt="">
+                </a>
+                <a href="images/traditional art/art5.jpg" alt="">
+                    <img class="img-lg p-3" src="images/traditional art/art5.jpg" alt="">
+                </a>
+                <a href="images/traditional art/art8.jpg" alt="">
+                    <img class="img-lg p-3" src="images/traditional art/art8.jpg" alt="">
+                </a>
+                <a href="images/traditional art/art11.JPG" alt="">
+                    <img class="img-lg p-3" src="images/traditional art/art11.JPG" alt="">
+                </a>
+                <a href="images/traditional art/art14.JPG" alt="">
+                    <img class="img-lg p-3" src="images/traditional art/art14.JPG" alt="">
+                </a>
+                <a href="images/traditional art/art17.JPG" alt="">
+                    <img class="img-lg p-3" src="images/traditional art/art17.JPG" alt="">
+                </a>
+            </li>
+            <li class="col-md-4">
+                <a href="images/traditional art/art3.jpg" alt="">
+                    <img class="img-lg p-3" src="images/traditional art/art3.jpg" alt="">
+                </a>
+                <a href="images/traditional art/art6.jpg" alt="">
+                    <img class="img-lg p-3" src="images/traditional art/art6.jpg" alt="">
+                </a>
+                <a href="images/traditional art/art9.jpg" alt="">
+                    <img class="img-lg p-3" src="images/traditional art/art9.jpg" alt="">
+                </a>
+                <a href="images/traditional art/art12.JPG" alt="">
+                    <img class="img-lg p-3" src="images/traditional art/art12.JPG" alt="">
+                </a>
+                <a href="images/traditional art/art15.JPG" alt="">
+                    <img class="img-lg p-3" src="images/traditional art/art15.JPG" alt="">
+                </a>
+                <a href="images/traditional art/art18.JPG" alt="">
+                    <img class="img-lg p-3" src="images/traditional art/art18.JPG" alt="">
+                </a>
+            </li>
+        </ul>
+
 
         <br><br>
         <a class="back-button" href="art.html">
             <img class="back-icon" src="images/back-button.png" alt="back to art">
             <h3 class="back-text">Back to Art</h3>
         </a>
-
-
-
-    </div>
     </div>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+
+    <div class="project-wrappper">
+        
+    </div>
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $("#lightgallery").lightGallery({
+                selector: 'a',
+                cssEasing: 'cubic-bezier(0.25, 0, 0.25, 1)',
+                download: false
+
+            });
+        });
+    </script>
+
 </body>
 
 </html>
